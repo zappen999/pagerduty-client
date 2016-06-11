@@ -1,0 +1,32 @@
+{
+  "name": "pagerduty-client",
+  "version": "1.0.0",
+  "description": "PagerDuty client API wrapper for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zappen999/pagerduty-client.git"
+  },
+  "keywords": [
+    "Pagerduty",
+    "client",
+    "api",
+    "wrapper"
+  ],
+  "author": "Johan Kanefur <johan.canefur@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zappen999/pagerduty-client/issues"
+  },
+  "homepage": "https://github.com/zappen999/pagerduty-client#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "node-fetch": "^1.5.3"
+  }
+}
